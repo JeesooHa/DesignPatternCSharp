@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch1_practice
+namespace ch1_strategy
 {
-    class Squeak : QuackBehavior
+    class Quack : QuackBehavior
     {
         public void quack()
         {
-            Console.WriteLine("삑");
+            Console.WriteLine("꽥");
         }
     }
 }

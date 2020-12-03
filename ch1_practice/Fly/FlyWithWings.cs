@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch1_practice
+namespace ch1_strategy
 {
-    class FlyNoWay : FlyBehavior
+    class FlyWithWings : FlyBehavior
     {
         public void fly()
         {
-            Console.WriteLine("저는 못 날아요!");
+            Console.WriteLine("날고 있어요!");
         }
     }
 }

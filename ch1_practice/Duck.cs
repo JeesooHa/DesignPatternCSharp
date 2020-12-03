@@ -1,23 +1,23 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch1_practice
+namespace ch1_strategy
 {
     public abstract class Duck
     {
         public FlyBehavior flyBehavior;
         public QuackBehavior quackBehavior;
-        
+
         public void performQuack()
         {
             quackBehavior.quack();
         }
         public void siwm()
         {
-            Console.WriteLine("ëª¨ë“  ì˜¤ë¦¬ëŠ” ë¬¼ì— ëœ¹ë‹ˆë‹¤. ê°€ì§œ ì˜¤ë¦¬ë„ ëœ¨ì£ ");
+            Console.WriteLine("¸ğµç ¿À¸®´Â ¹°¿¡ ¶å´Ï´Ù. °¡Â¥ ¿À¸®µµ ¶ßÁÒ");
         }
 
         public void performFly()
@@ -37,7 +37,7 @@ namespace ch1_practice
         {
             quackBehavior = qb;
         }
-        
+
     }
 
 }

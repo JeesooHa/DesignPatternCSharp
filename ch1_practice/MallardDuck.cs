@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch1_practice
+namespace ch1_strategy
 {
     public class MallardDuck : Duck
     {

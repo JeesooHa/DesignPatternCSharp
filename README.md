@@ -1,5 +1,7 @@
 # DesignPatternCSharp
 
+Head First Design Patterns 책 공부 후 학습한 내용 및 코드 정리 
+
 ## 기초지식
 
 ### Design Pattern 이란?
